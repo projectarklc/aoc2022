@@ -19,8 +19,8 @@ Describe 'Puzzle Tests' {
     }
 
     It 'Puzzle 2' {
-        #$test = Puzzle2 -PuzzleInput $Puzzleinput
-        #$test | Should -Be 4
+        $test = Puzzle2 -PuzzleInput $Puzzleinput
+        $test | Should -Be 'MCD'
     }
 
 }
